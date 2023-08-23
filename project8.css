@@ -1,0 +1,41 @@
+#vis-popup {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.737);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    z-index: 99999;
+    display: none;
+}
+
+#vis-popup #npop {
+    width: 20px;
+    position: absolute;
+    top: 2%;
+    right: 15%;
+    cursor: pointer;
+}
+
+#vis-popup #leftarrow {
+    width: 25px;
+    position: absolute;
+    top: 34%;
+    left: 15%;
+    cursor: pointer;
+}
+
+#vis-popup #rightarrow {
+    width: 25px;
+    position: absolute;
+    top: 32%;
+    cursor: pointer;
+    right: 15%;
+}
+
+#vis-popup #mainpopimg {
+    width: 50%;
+}
